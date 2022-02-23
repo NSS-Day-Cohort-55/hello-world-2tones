@@ -2,6 +2,29 @@ html {
     background-color:rgb(255, 241, 225);
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.navbar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    background: rgba(230, 209, 183, 0.658);
+    opacity: 85%;
+    border-radius: 10px;
+
+}
+.navbar .country{
+    padding: 10px;
+}
+a {
+    color: rgb(50, 175, 206)
+}
+
 .logo {
     width: 300px;
     
