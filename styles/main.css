@@ -41,7 +41,16 @@ h1{
     font-size: 3em;
 }
 
-h2{
+.boxes {
     display: flex;
-    
+    flex-direction: row;
+}
+
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 15px; 
+}
+
+footer {
+    padding-top: 20px;
 }
