@@ -16,6 +16,7 @@ nav {
     background: rgba(230, 209, 183, 0.658);
     opacity: 85%;
     border-radius: 10px;
+    box-shadow: 1px 1px 3px 2px rgb(233, 206, 176);
 
 }
 .navbar .country{
@@ -27,6 +28,7 @@ a {
 
 .logo {
     width: 300px;
+
     
 }
 
