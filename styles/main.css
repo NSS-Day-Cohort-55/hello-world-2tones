@@ -113,3 +113,8 @@ h2 {
 footer {
     margin-top: 10px;
 }
+
+.tagline {
+    max-width: 570px;
+    min-width: 570px;
+}
