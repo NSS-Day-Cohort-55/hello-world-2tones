@@ -2,6 +2,10 @@ html {
     background-color:rgb(255, 241, 225);
 }
 
+body {
+    margin-left: 15px;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -29,7 +33,7 @@ a {
 .logo {
     width: 300px;
     padding: 0;
-    margin: 0;
+    margin: -50px 0px -50px -85px;
 }
 
 .countryimg {
@@ -43,12 +47,14 @@ h1{
     font-size: 3em;
     color: rgb(50, 175, 206);
     text-shadow: 1px 1px 1px #00aeffda;
+    margin: -2px 0px 0px 0px;
 }
 
 .boxes {
     display: flex;
     flex-direction: row;
     color: rgb(50, 175, 206);
+    margin-left: -10px;
 }
 
 h2 {
@@ -57,7 +63,6 @@ h2 {
     color: rgb(50, 175, 206);
     margin-bottom: 0;
     padding-bottom: 0;
-
     text-decoration: underline; 
 }
 
@@ -92,10 +97,10 @@ h2 {
     padding-left: 2px;
     margin-top: 1px;
     justify-content: flex-start;
-    text: 1.3em;
+    font-size: 1em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 footer {
-    margin-top: 15px;
+    margin-top: 10px;
 }
