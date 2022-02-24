@@ -2,8 +2,6 @@ html {
     background-color:rgb(255, 241, 225);
 }
 
-
-
 nav {
     display: flex;
     flex-direction: row;
@@ -56,8 +54,9 @@ h1{
 h2 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-right: 15px; 
-    color: rgb(50, 175, 206)
-    text-shadow: 1px 1px 1px #00aeff;
+    color: rgb(50, 175, 206);
+    margin-bottom: 0;
+    padding-bottom: 0;
 
 }
 
@@ -83,6 +82,17 @@ h2 {
     padding: 0px 10px 0px 10px;
     margin: 10px;
     box-shadow: 1px 1px 3px 2px rgb(233, 206, 176);
+}
+
+.parts {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2px;
+    margin-top: 1px;
+    justify-content: flex-start;
+    text: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 footer {
