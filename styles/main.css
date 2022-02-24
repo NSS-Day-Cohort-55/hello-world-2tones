@@ -15,18 +15,21 @@ nav {
 .navbar{
     list-style-type: none;
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
     padding: 5px;
     background: rgba(230, 209, 183, 0.658);
     opacity: 85%;
     border-radius: 10px;
     box-shadow: 1px 1px 3px 2px rgb(233, 206, 176);
-    width: 549px;
+    min-width: 549px;
+    max-width: 549px;
 
 }
 .navbar .country{
     padding: 10px;
 }
+
 a {
     color: rgb(17,140,173)
 }
@@ -38,7 +41,9 @@ a {
 }
 
 .countryimg {
-    width: 560px;
+    display: flex;
+    min-width: 560px;
+    max-width: 560px;
     box-shadow: 1px 1px 3px 2px rgb(233, 206, 176);
     border-radius: 10px;
 }
@@ -56,6 +61,8 @@ h1{
     flex-direction: row;
     color: rgb(17,140,173);
     margin-left: -10px;
+    max-width: 578px;
+    min-width: 578px;
 }
 
 h2 {
