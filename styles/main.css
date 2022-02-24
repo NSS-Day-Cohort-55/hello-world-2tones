@@ -2,6 +2,8 @@ html {
     background-color:rgb(255, 241, 225);
 }
 
+
+
 nav {
     display: flex;
     flex-direction: row;
@@ -28,29 +30,62 @@ a {
 
 .logo {
     width: 300px;
-
-    
+    padding: 0;
+    margin: 0;
 }
 
 .countryimg {
     width: 400px;
+    box-shadow: 1px 1px 3px 2px rgb(233, 206, 176);
+    border-radius: 10px;
 }
 
 h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 3em;
+    color: rgb(50, 175, 206);
+    text-shadow: 1px 1px 1px #00aeffda;
 }
 
 .boxes {
     display: flex;
     flex-direction: row;
+    color: rgb(50, 175, 206);
 }
 
 h2 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-right: 15px; 
+    color: rgb(50, 175, 206)
+    text-shadow: 1px 1px 1px #00aeff;
+
+}
+
+.city{
+    background: rgba(230, 209, 183, 0.658);
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 3px 2px rgb(233, 206, 176);
+}
+
+.landmark{
+    background: rgba(230, 209, 183, 0.658);
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 3px 2px rgb(233, 206, 176);
+}
+
+.citizen {
+    background: rgba(230, 209, 183, 0.658);
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 3px 2px rgb(233, 206, 176);
 }
 
 footer {
-    padding-top: 20px;
+    display: flex;
+    margin-top: 100px;
 }
