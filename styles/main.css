@@ -56,8 +56,8 @@ h1{
 h2 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-right: 15px; 
-    color: rgb(50, 175, 206)
-    text-shadow: 1px 1px 1px #00aeff;
+    color: rgb(50, 175, 206);
+    text-decoration: underline; 
 
 }
 
