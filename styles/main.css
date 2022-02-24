@@ -117,4 +117,5 @@ footer {
 .tagline {
     max-width: 570px;
     min-width: 570px;
+    text-decoration: none;
 }
