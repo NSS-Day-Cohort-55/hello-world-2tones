@@ -61,18 +61,20 @@ a:hover {
     margin:0 auto; 
     margin-bottom: -15px;
     padding-bottom: -15px;
+    position: sticky;
 }
 
 ul {
     width: 1000%;
     overflow:hidden;
-    position:relative;
+    position:static;
     list-style:none;
 }
 
 ul li { 
     float:left;
     width:10%;
+    position: sticky:
 }
 
 ul li img {
@@ -80,6 +82,7 @@ ul li img {
     max-width: 560px;
     border-radius: 10px;
     box-shadow: 1px 1px 3px 2px rgb(233, 206, 176); 
+    position: static;
 }
 
 .buttn {
@@ -88,6 +91,7 @@ ul li img {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     max-width: max-content;
     border: rgba(230, 209, 183, 0.658);
+    position: sticky;
 }
 
 
