@@ -55,6 +55,42 @@ a:hover {
     border-radius: 10px;
 }
 
+#image-slider {
+    
+    overflow:hidden;
+    margin:0 auto; 
+    margin-bottom: -15px;
+    padding-bottom: -15px;
+}
+
+ul {
+    width: 1000%;
+    overflow:hidden;
+    position:relative;
+    list-style:none;SS
+}
+
+ul li { 
+    float:left;
+    width:10%;
+}
+
+ul li img {
+    min-width: 560px;
+    max-width: 560px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 2px rgb(233, 206, 176); 
+}
+
+.buttn {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: max-content;
+    border: rgba(230, 209, 183, 0.658);
+}
+
+
 h1{
     
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
